@@ -35,7 +35,10 @@ responses:
   - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Alira.
+  utter_name:
+  - text: My name is Alira.
 actions:
 - action_tell_name
+- utter_name
 forms: {}
 e2e_actions: []
